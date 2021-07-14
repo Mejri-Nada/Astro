@@ -1,0 +1,203 @@
+/*nav{
+    background-color:red;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2em white;
+    letter-spacing: 2px;
+    font-size: 60%;
+    margin:55%;
+}
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: sticky;
+    height: 8vh;
+    font-weight: 600;
+    padding-top: 0px;
+}
+li{
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+li::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+li:hover::after{
+    width: 100%;
+    margin-left: 55%;
+}
+li::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+    
+}*/
+a {
+    color: white;
+    padding-right: 10px ;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer{
+    padding-top: 11px ;
+    padding-bottom: 11px;
+    border-top: 2px solid black;
+    background-color: transparent;
+    /*background-image: url(https://images.unsplash.com/photo-1597329564004-2079b0706c03?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80);*/
+}
+/*facebook*/
+.u::before{
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+.u:hover::before{
+    width: 50%;
+
+}
+.u::after{
+    position: absolute;
+    bottom: 10;
+    right: 25%;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+.u:hover::after{
+    width: 50%;
+}
+.u{
+    background: transparent;
+}
+
+/*twitter*/
+.d::before{
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+.d:hover::before{
+    width: 50%;
+
+}
+.d::after{
+    position: absolute;
+    bottom: 10;
+    right: 25%;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+.d:hover::after{
+    width: 50%;
+}
+.d{
+    background: transparent;
+}
+
+/*github*/
+.t::before{
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+.t:hover::before{
+    width: 50%;
+
+}
+.t::after{
+    position: absolute;
+    bottom: 10;
+    right: 25%;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+.t:hover::after{
+    width: 50%;
+}
+.t{
+    background: transparent;
+}
+
+/*linkedIn*/
+.q::before{
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+.q:hover::before{
+    width: 50%;
+
+}
+.q::after{
+    position: absolute;
+    bottom: 10;
+    right: 25%;
+    content:"";
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    transition: width 0.4s ease-out;
+}
+.q:hover::after{
+    width:50%;
+}
+.q{
+    background: transparent;
+}
+.row{
+   margin-right: 20%;
+   margin-left: 20%;
+}
+

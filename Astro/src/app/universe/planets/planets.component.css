@@ -1,0 +1,156 @@
+.container-fluid{
+    background-image: url(https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/bbbf2a17-987c-4fe6-b190-ac8fe0e235e9);
+    background-color: black;
+    background-attachment: fixed;
+  }
+  
+  .r1{
+      background-position-x:74% ;
+      background-position-y: 20%;
+      height:700px;
+  }
+  
+  .r2{
+      background-position-x:70% ;
+      background-position-y: 73%;
+      height:700px;
+  }
+  
+  .r3{
+      background-position-x:70% ;
+      background-position-y: 93%;
+      height:700px;
+  }
+  p{
+      color: white;
+      background-color: red;
+      padding-top: 20%;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-left: 2%;
+      font-size: larger;
+      font-size: 2em;
+  }
+  
+  /*2*/
+  .flip-card2 {
+      background-color: transparent;
+      width: 340px;
+      height: 320px;
+      border-radius: 20px;
+      perspective: 1000px;
+      margin-left:10%;
+      margin-top: 5%;
+    }
+    
+    .flip-card2-inner {
+      position: relative;
+      width: 90%;
+      height: 97%;
+      border-radius: 200px;
+      margin-top: 30%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0px 0px 90px 0 rgb(255, 89, 0);
+    }
+    
+    .flip-card2:focus {
+        outline: 0;
+    }
+    
+    .flip-card2-front,
+    .flip-card2-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card2-front {
+      background:rgba(143, 137, 137, 0.172);
+      background-size: cover;
+      background-position-x: -5.5px;
+      color: black;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 200px;
+    }
+    
+  
+    h3 {
+      font-size: 20px;
+      font-family: Verdana, sans-serif;
+      font-weight: bold;
+      color: rgb(218, 218, 218);
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-left: 2%;
+      font-size: larger;
+      font-size: 150%;
+    }
+  
+    /*22*/
+  .flip-card22 {
+      background-color: transparent;
+      width: 340px;
+      height: 320px;
+      border-radius: 20px;
+      perspective: 1000px;
+      margin-left:10%;
+    }
+    
+    .flip-card22-inner {
+      position: relative;
+      
+      width: 90%;
+      height: 97%;
+      border-radius: 200px;
+      margin-top: 30%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0px 0px 35px 0 rgb(141, 141, 141);
+    }
+    
+    .flip-card22:focus {
+        outline: 0;
+    }
+  
+    .flip-card22-front,
+    .flip-card22-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card22-front {
+      
+      background:rgba(143, 137, 137, 0.172);
+      background-size: 112%;
+      background-position-x: -16.5px;
+      background-position-y:-16.5px ;
+      color: black;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/04/mercury_globe/15922572-1-eng-GB/Mercury_Globe_pillars.jpg);
+      border-radius: 200px;
+    }
+    
+    .flip-card22-back {
+      background: linear-gradient(to right, black, wheat);
+      color: white;
+      transform: rotateY(180deg);
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   
